@@ -1675,3 +1675,16 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--border-subtle);
 }
+
+/* PoladGroup Link */
+.polad-link {
+  color: var(--accent-cyan);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.polad-link:hover {
+  color: var(--accent-orange);
+  text-decoration: underline;
+}
